@@ -12,6 +12,7 @@
   "db:push": "drizzle-kit push",
   "db:studio": "start https://console.neon.tech/app/projects/round-sound-41394351/branches/br-ancient-silence-b5alknkk/tables?database=application_staging",
   "db:seed": "tsx src/db/seed.ts",
+  "build:check": "npx tsc --noEmit && npm run build",
   "deploy:start": "npm run db:push && npm run start",
   "test": "jest",
   "test:only": "jest src/tests/app.test.ts",
