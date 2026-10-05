@@ -8,7 +8,11 @@ app.use(express.json());
 app.use(cors({ origin: process.env.FRONTEND_URL ?? true, credentials: true }));
 
 app.get("/health", (_req, res) => {
-  res.json({ ok: true, env: process.env.APP_ENV ?? "local" });
+  res.json({
+    ok: true,
+    env: process.env.APP_ENV ?? "local",
+    status: "healthy",
+  });
 });
 
 app.get("/api/tenant/config", (req, res) => {

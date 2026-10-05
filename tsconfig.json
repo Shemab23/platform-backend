@@ -10,7 +10,8 @@
     "skipLibCheck": true,
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "types":["jest","node"]
   },
   "include": ["src"]
 }

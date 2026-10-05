@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js",
+    "test": "jest",
+    "test:only": "jest src/tests/app.test.ts",
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
@@ -18,9 +21,13 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "@swc/core": "^1.16.13",
+    "@swc/jest": "^0.2.39",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
     "@types/node": "^26.6.4",
+    "jest": "^30.5.2",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
