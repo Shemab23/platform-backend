@@ -24,6 +24,7 @@
   "type": "commonjs",
   "dependencies": {
     "@neondatabase/serverless": "^1.2.0",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
     "dotenv": "^18.0.5",
     "drizzle-orm": "^0.45.3",
@@ -33,6 +34,7 @@
     "@electric-sql/pglite": "^0.5.8",
     "@swc/core": "^1.16.13",
     "@swc/jest": "^0.2.39",
+    "@types/bcrypt": "^6.0.0",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
