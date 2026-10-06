@@ -29,12 +29,12 @@ Sprints are global numbers shared with FRONTEND.md. Backend owns sprints 00, 01,
 # ML 00: Pipeline
 
 ## Sprint 00: Repo, CI, deploy
-- [ ] **Task 0.1: repo, protection, CI, deploys**
+- [x] **Task 0.1: repo, protection, CI, deploys**
   - Starts from: empty folder
   - Use: Git, GitHub (public), Actions, Render
   - Create: repo, `develop` + `main`, rulesets, `ci.yml`, CODEOWNERS, `/health`, Render staging + prod
   - Ends with: hello-world API on staging and prod, direct pushes blocked
-- [ ] **ML 00 close:** gate checked, commit `ml 00: end of pipeline - SAFE`, tag `ml-00`
+- [x] **ML 00 close:** gate checked, commit `ml 00: end of pipeline - SAFE`, tag `ml-00`
 
 ---
 
