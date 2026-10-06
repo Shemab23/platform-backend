@@ -15,7 +15,7 @@
     "build:check": "npx tsc --noEmit && npm run build",
     "deploy:start": "npm run db:push && npm run start",
     "test": "jest",
-    "test:only": "jest src/tests/app.test.ts",
+    "test:only": "jest src/tests/app.test.ts ",
     "test:watch": "jest --watch"
   },
   "keywords": [],
@@ -30,6 +30,7 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
     "@swc/core": "^1.16.13",
     "@swc/jest": "^0.2.39",
     "@types/cors": "^2.8.19",
